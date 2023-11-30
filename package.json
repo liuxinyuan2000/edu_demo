@@ -1,0 +1,50 @@
+{
+  "name": "video2video",
+  "description": "description",
+  "appName": "video2video",
+  "appSubtitle": "appSubtitle",
+  "appMetaDescription": "Turn your sketch into a refined image using AI",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "proxy": "http://localhost:5000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npm run lint && npm run build",
+    "postinstall": "prisma generate"
+  },
+  "browser": {},
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "@vercel/analytics": "^0.1.10",
+    "@vercel/og": "^0.1.0",
+    "axios": "^1.6.0",
+    "copy-to-clipboard": "^3.3.3",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^2.0.6",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.88.0",
+    "naughty-words": "^1.2.0",
+    "next": "^13.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-sketch-canvas": "^6.2.0",
+    "react-spinners": "^0.13.8",
+    "react-tooltip": "^5.13.0",
+    "replicate": "github:replicate/replicate-javascript#deployments",
+    "upload-js-full": "^1.22.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "express": "^4.18.2",
+    "postcss": "^8.4.16",
+    "prisma": "^4.10.1",
+    "tailwindcss": "^3.1.8",
+    "tailwindcss-animate": "^1.0.5"
+  }
+}
