@@ -18,9 +18,11 @@
   "browser": {},
   "dependencies": {
     "@prisma/client": "^4.10.1",
+    "@supabase/supabase-js": "^2.39.7",
     "@vercel/analytics": "^0.1.10",
     "@vercel/og": "^0.1.0",
     "axios": "^1.6.0",
+    "bootstrap": "^5.3.3",
     "copy-to-clipboard": "^3.3.3",
     "cors": "^2.8.5",
     "http-proxy-middleware": "^2.0.6",
@@ -29,15 +31,18 @@
     "naughty-words": "^1.2.0",
     "next": "^13.4.2",
     "react": "18.2.0",
+    "react-bootstrap": "^2.10.1",
     "react-dom": "18.2.0",
+    "react-scroll": "^1.9.0",
     "react-sketch-canvas": "^6.2.0",
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.13.0",
     "replicate": "github:replicate/replicate-javascript#deployments",
     "upload-js-full": "^1.22.0",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@types/react": "^18.2.58",
     "autoprefixer": "^10.4.8",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
